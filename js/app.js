@@ -14,10 +14,8 @@ const threepoint = document.createElement("p");
 threepoint.innerText = "...";
 
 const numberlike = document.createElement("p");
-numberlike.innerText = "likes";
+numberlike.innerText = "250,223 likes";
 
-const span = document.createElement("p");
-span.innerText = "250,223";
 
 const header = document.createElement("div");
 header.id = "header";
@@ -80,7 +78,6 @@ body.appendChild(article);
 
             likeAndImg.appendChild(likes);
                 likes.appendChild(numberlike);
-                    numberlike.appendChild(span);
 
         footer.appendChild(droite);
             droite.appendChild(imgDroite);
